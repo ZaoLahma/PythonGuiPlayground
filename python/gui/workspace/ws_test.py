@@ -19,5 +19,8 @@ class WsTest(WorkspaceBase):
     def pause(self):
         Log.log("Pause called")
 
+    def deactivate(self):
+        Log.log("Deactivate called")
+
     def destroy(self):
         Log.log("Destroy called")
